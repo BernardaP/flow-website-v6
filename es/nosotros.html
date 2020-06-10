@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quienes somos</title>
+
+    <!-- Google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Saira:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- hamburger icon  stylesheet-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+
+
+</head>
+
+<body>
+    <!-- Title -->
+    <section id="title" class="who-image">
+        <div class="container-fluid" id="main-container">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-dark ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../images/logo/FLOW_Logo_WHT_ND.png" width="112" height="25" alt="website logo">
+                </a>
+                <!-- Nav overlay -->
+                <div id="myNav" class="overlay-nav">
+                    <!-- overlay navigation close button -->
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <!-- Nav overlay content -->
+                    <div class="overlay-content">
+                        <a href="index.html">Inicio</a>
+                        <a class="active" href="nosotros.html">Quienes somos</a>
+                        <a href="acerca.html">Porque existimos</a>
+                        <a href="enfoque.html">Nuestro enfoque</a>
+                        <a href="proyectos.html">Proyectos</a>
+                        <a href="contacto.html">Contáctanos</a>
+                        <a class="language" href="../index.html">English</a>
+                    </div>
+                </div>
+                <!-- open nav overlay navigation -->
+                <a aria-label="Main Menu" class="icon" onclick="openNav()">
+                    <i class="fa fa-bars fa-lg icon-menu"></i>
+                </a>
+            </nav>
+    
+
+            <div class="overlay"></div>
+            
+            <div class="container-heading">
+                <h1 class="container-content">Flow es creatividad, apoyo, paciencia y mucho más.</h1>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="logo-img">
+        <div class="logo-who"></div>
+    </section>
+
+    <section class="content" id="content">
+        <p>El desarrollo de cualquier proyecto de recursos naturales es una inmensa tarea y desafío con muchas piezas móviles y
+        requiere contribuciones de conocimiento, comprensión, experiencia técnica y habilidades para resolver problemas.</p>
+        <p>Flow posee estas habilidades y mucho más. Servimos como un socio estratégico en proyectos donde el agua y asuntos
+        sociales que afectan a las comunidades son centrales. Aportamos valor a cualquier actividad de recursos naturales que
+        puede abarcar proyectos de minería, petróleo, energía hidroeléctrica, geotérmica, conservación ambiental, etc. Si bien
+        tenemos experiencia técnica y científica, es nuestra habilidad para percibir rápidamente los problemas locales lo que
+        realmente refleja la fortaleza de la firma. Entendemos que los recursos hídricos están fuertemente vinculados a la vida
+        cotidiana de las comunidades ubicadas en las áreas del proyecto y creemos firmemente en la cooperación con la comunidad.</p>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer id="footer">
+        <div class="text-space">
+            <p><span class="bold-text">Email</span> <a href="mailto:info@flow-ecuador.com" target="_blank">info@flow-ecuador.com</a></p>
+        </div>
+        <div class="text-space">
+            <p><span class="bold-text">Teléfonos</span> +593-099-161-0741 +593-099-953-9970</p>
+        </div>
+        <div class="copyright">
+            <p>© 2020 All Rights Reserved. Developed by <a href="#">BPierce</a></p>
+        </div>
+    </footer>
+
+    <!-- Nav overlay button Javascript  -->
+    <!-- Open when someone clicks on the span element  -->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "50%";
+        }
+
+        //  <!--Close when someone clicks on the "x" symbol inside the overlay-- >
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
